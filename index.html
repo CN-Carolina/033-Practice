@@ -1,0 +1,154 @@
+<!DOCTYPE html> <html><head>
+        <title>03.3 Practice</title>
+    <style>@import url('<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">');
+
+img {
+    width: 200px;
+}
+
+a {
+    color: limegreen;
+}
+
+html {
+    display: flex;
+    align-items: center;
+}
+
+@import url('<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">');
+
+img {
+    width: 200px;
+}
+
+a {
+    color: limegreen;
+}
+
+html {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    margin: 24px;
+    font-family: 'Roboto Mono', monospace;
+    color: lightblue;
+    background-color: black;
+}
+
+.storyOne {
+    border-radius: 0px;
+    background-color: #3f3f3f;
+    padding: 24px;
+    min-height: 200px;
+    border: 8px gray inset;
+}
+
+.storyTwo {
+    border-radius: 0px;
+    background-color: #3f3f3f;
+    padding: 24px;
+    min-height: 200px;
+    border: 8px gray inset;
+}
+
+.first-story {
+    text-align: center;
+    background-color: #4b5669;
+}
+
+.second-story {
+    text-align: center;
+    background-color: #4b5669;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2767d6;
+    color: white;
+    font-size: 20px;
+    font-family: "sans-serif";
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.storyOne {
+    display: none;
+}</style></head>
+    <body>
+
+        <h1 class="first-story">A Code Nation Story</h1>
+        <button>When you're done with all the steps, press this button</button>
+        <br>
+
+
+
+
+
+        <!-- DON'T LOOK BELOW HERE!! -->
+        <div class="storyOne">
+            Yesterday in class was really weird. First, instead of learning code <span class="volunteer1"></span> went on a long rant about how <span class="number1"></span>+<span class="number2"></span> equals <span class="subtracting"></span> even though we all know it equals <span class="adding"></span>. We all just nodded in a(n)<span class="adjective"></span> way. Then <span class="classmate1"></span> started screaming in the middle of class. We asked <span class="classmate1"></span> what was wrong and they said that they saw <span class="celebrity"></span> outside the window! <span class="classmate2"></span> said that was a lie, but then <span class="volunteer2"></span> suggested we all go see for ourselves.It turns out they were not lying! <span class="celebrity-again"></span> was standing there <span class="verb"></span>ing at the window. It turns out they really want to learn how to code too. What a wild day.
+        </div>
+
+
+
+
+
+
+
+
+
+
+    
+<script>
+/*__POPCODESTART__*/
+var volunteerOne = "Braxton";
+var volunteerTwo = "Oussy";
+var studentOne = "Tiara";
+var studentTwo = "Jeremy";
+var numberOne = 23;
+var numberTwo = 3;
+var sum = 26;
+var difference = 20;
+var adj = "smart";
+var verb = "run";
+var celeb = "Beyonce";
+
+document.querySelector("button").onclick = function () {
+  //replace null below with variable for first volunteer
+  document.querySelector(".volunteer1").innerHTML = volunteerOne; //replace null below with variable for second volunteer
+
+  document.querySelector(".volunteer2").innerHTML = volunteerTwo; //replace null below with variable for first number
+
+  document.querySelector(".number1").innerHTML = numberOne; //replace null below with variable for second number
+
+  document.querySelector(".number2").innerHTML = numberTwo; //replace null below with variable adding numbers
+
+  document.querySelector(".adding").innerHTML = sum; //replace null below with variable subtracting numbers
+
+  document.querySelector(".subtracting").innerHTML = difference; //replace null below with variable for the adjective
+
+  document.querySelector(".adjective").innerHTML = adj; //replace null below with variable for fist student's name
+
+  document.querySelector(".classmate1").innerHTML = studentOne; //replace null below with variable for second student's name
+
+  document.querySelector(".classmate2").innerHTML = studentTwo; //replace null below with variable for celebrity's name
+
+  document.querySelector(".celebrity").innerHTML = celeb; //replace null below with variable for celebrity's name
+
+  document.querySelector(".celebrity-again").innerHTML = celeb; //replace null below with variable for the verb
+
+  document.querySelector(".verb").innerHTML = verb;
+  document.querySelector(".storyOne").style = "display:block";
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbInZvbHVudGVlck9uZSIsInZvbHVudGVlclR3byIsInN0dWRlbnRPbmUiLCJzdHVkZW50VHdvIiwibnVtYmVyT25lIiwibnVtYmVyVHdvIiwic3VtIiwiZGlmZmVyZW5jZSIsImFkaiIsInZlcmIiLCJjZWxlYiIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsIm9uY2xpY2siLCJpbm5lckhUTUwiLCJzdHlsZSJdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSUEsWUFBWSxHQUFHLFNBQW5CO0FBQ0EsSUFBSUMsWUFBWSxHQUFHLE9BQW5CO0FBQ0EsSUFBSUMsVUFBVSxHQUFHLE9BQWpCO0FBQ0EsSUFBSUMsVUFBVSxHQUFHLFFBQWpCO0FBQ0EsSUFBSUMsU0FBUyxHQUFHLEVBQWhCO0FBQ0EsSUFBSUMsU0FBUyxHQUFHLENBQWhCO0FBQ0EsSUFBSUMsR0FBRyxHQUFHLEVBQVY7QUFDQSxJQUFJQyxVQUFVLEdBQUcsRUFBakI7QUFDQSxJQUFJQyxHQUFHLEdBQUcsT0FBVjtBQUNBLElBQUlDLElBQUksR0FBRyxLQUFYO0FBQ0EsSUFBSUMsS0FBSyxHQUFHLFNBQVo7O0FBSUFDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixFQUFpQ0MsT0FBakMsR0FBMkMsWUFBVztBQUNsRDtBQUVBRixFQUFBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsYUFBdkIsRUFBc0NFLFNBQXRDLEdBQWtEZCxZQUFsRCxDQUhrRCxDQUlsRDs7QUFDQVcsRUFBQUEsUUFBUSxDQUFDQyxhQUFULENBQXVCLGFBQXZCLEVBQXNDRSxTQUF0QyxHQUFrRGIsWUFBbEQsQ0FMa0QsQ0FNbEQ7O0FBQ0FVLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixFQUFtQ0UsU0FBbkMsR0FBK0NWLFNBQS9DLENBUGtELENBUWxEOztBQUNBTyxFQUFBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsVUFBdkIsRUFBbUNFLFNBQW5DLEdBQStDVCxTQUEvQyxDQVRrRCxDQVVsRDs7QUFDQU0sRUFBQUEsUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLEVBQWtDRSxTQUFsQyxHQUE4Q1IsR0FBOUMsQ0FYa0QsQ0FZbEQ7O0FBQ0FLLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixjQUF2QixFQUF1Q0UsU0FBdkMsR0FBbURQLFVBQW5ELENBYmtELENBY2xEOztBQUNBSSxFQUFBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsWUFBdkIsRUFBcUNFLFNBQXJDLEdBQWlETixHQUFqRCxDQWZrRCxDQWdCbEQ7O0FBQ0FHLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixFQUFzQ0UsU0FBdEMsR0FBa0RaLFVBQWxELENBakJrRCxDQWtCbEQ7O0FBQ0FTLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixFQUFzQ0UsU0FBdEMsR0FBa0RYLFVBQWxELENBbkJrRCxDQW9CbEQ7O0FBQ0FRLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixZQUF2QixFQUFxQ0UsU0FBckMsR0FBaURKLEtBQWpELENBckJrRCxDQXNCbEQ7O0FBQ0FDLEVBQUFBLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixrQkFBdkIsRUFBMkNFLFNBQTNDLEdBQXVESixLQUF2RCxDQXZCa0QsQ0F3QmxEOztBQUNBQyxFQUFBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsT0FBdkIsRUFBZ0NFLFNBQWhDLEdBQTRDTCxJQUE1QztBQUNBRSxFQUFBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsV0FBdkIsRUFBb0NHLEtBQXBDLEdBQTRDLGVBQTVDO0FBQ0gsQ0EzQkQiLCJzb3VyY2VzQ29udGVudCI6WyJsZXQgdm9sdW50ZWVyT25lID0gXCJCcmF4dG9uXCI7XG5sZXQgdm9sdW50ZWVyVHdvID0gXCJPdXNzeVwiO1xubGV0IHN0dWRlbnRPbmUgPSBcIlRpYXJhXCI7XG5sZXQgc3R1ZGVudFR3byA9IFwiSmVyZW15XCI7XG5sZXQgbnVtYmVyT25lID0gMjM7XG5sZXQgbnVtYmVyVHdvID0gMztcbmxldCBzdW0gPSAyNjtcbmxldCBkaWZmZXJlbmNlID0gMjA7XG5sZXQgYWRqID0gXCJzbWFydFwiO1xubGV0IHZlcmIgPSBcInJ1blwiO1xubGV0IGNlbGViID0gXCJCZXlvbmNlXCI7XG5cblxuXG5kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiYnV0dG9uXCIpLm9uY2xpY2sgPSBmdW5jdGlvbigpIHtcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGZvciBmaXJzdCB2b2x1bnRlZXJcblxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIudm9sdW50ZWVyMVwiKS5pbm5lckhUTUwgPSB2b2x1bnRlZXJPbmU7XG4gICAgLy9yZXBsYWNlIG51bGwgYmVsb3cgd2l0aCB2YXJpYWJsZSBmb3Igc2Vjb25kIHZvbHVudGVlclxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIudm9sdW50ZWVyMlwiKS5pbm5lckhUTUwgPSB2b2x1bnRlZXJUd287XG4gICAgLy9yZXBsYWNlIG51bGwgYmVsb3cgd2l0aCB2YXJpYWJsZSBmb3IgZmlyc3QgbnVtYmVyXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5udW1iZXIxXCIpLmlubmVySFRNTCA9IG51bWJlck9uZTtcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGZvciBzZWNvbmQgbnVtYmVyXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5udW1iZXIyXCIpLmlubmVySFRNTCA9IG51bWJlclR3bztcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGFkZGluZyBudW1iZXJzXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5hZGRpbmdcIikuaW5uZXJIVE1MID0gc3VtO1xuICAgIC8vcmVwbGFjZSBudWxsIGJlbG93IHdpdGggdmFyaWFibGUgc3VidHJhY3RpbmcgbnVtYmVyc1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuc3VidHJhY3RpbmdcIikuaW5uZXJIVE1MID0gZGlmZmVyZW5jZTtcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGZvciB0aGUgYWRqZWN0aXZlXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5hZGplY3RpdmVcIikuaW5uZXJIVE1MID0gYWRqO1xuICAgIC8vcmVwbGFjZSBudWxsIGJlbG93IHdpdGggdmFyaWFibGUgZm9yIGZpc3Qgc3R1ZGVudCdzIG5hbWVcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLmNsYXNzbWF0ZTFcIikuaW5uZXJIVE1MID0gc3R1ZGVudE9uZTtcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGZvciBzZWNvbmQgc3R1ZGVudCdzIG5hbWVcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLmNsYXNzbWF0ZTJcIikuaW5uZXJIVE1MID0gc3R1ZGVudFR3bztcbiAgICAvL3JlcGxhY2UgbnVsbCBiZWxvdyB3aXRoIHZhcmlhYmxlIGZvciBjZWxlYnJpdHkncyBuYW1lXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5jZWxlYnJpdHlcIikuaW5uZXJIVE1MID0gY2VsZWI7XG4gICAgLy9yZXBsYWNlIG51bGwgYmVsb3cgd2l0aCB2YXJpYWJsZSBmb3IgY2VsZWJyaXR5J3MgbmFtZVxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuY2VsZWJyaXR5LWFnYWluXCIpLmlubmVySFRNTCA9IGNlbGViO1xuICAgIC8vcmVwbGFjZSBudWxsIGJlbG93IHdpdGggdmFyaWFibGUgZm9yIHRoZSB2ZXJiXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi52ZXJiXCIpLmlubmVySFRNTCA9IHZlcmI7XG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5zdG9yeU9uZVwiKS5zdHlsZSA9IFwiZGlzcGxheTpibG9ja1wiO1xufTsiXX0=</script></body></html>
